@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Data Display for Weather Plots.">
+  <meta name="author" content="Ganesh Persaud">
+  <title> Visualization-Bootstrap</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+   
+</head>
+
+<body>
+ 
+ <div class="container-fluid">
+     <div class="row">
+		<div class="col-md-12">
+		  
+		  
+		  <nav class="navbar navbar-default">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<a class="navbar-brand" href="index.html">Latitude</a>
+			  </div>
+
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+				  
+				  <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+					  <li><a href="Temperature.html">Max Temperature</a></li>
+					  <li><a href="Humidity.html">Humidity</a></li>
+					  <li><a href="Cloudiness.html">Cloudiness</a></li>
+					  <li><a href="Windspeed.html">Windspeed</a></li>
+					  
+					</ul>
+					<li><a href="comparison.html">Comparison</a></li>
+					<li><a href="Data.html">Data</a></li>
+				  </li>
+				</ul>
+			  </div>
+			  
+			</div>
+		  </nav>
+			
+		
+	
+	    </div>
+	</div>
+	
+	<!-- <div class="jumbotron"> -->
+		  
+	<!-- Row 2 -->
+ 	<div class="row">
+		<div class="col-md-8">
+			
+			<h2>  Summary: Latitude vs Weather Variables </h2>
+
+		</div>
+		
+		<div class="col-md-2">
+			<h3> Visualizations </h3>
+		</div>
+		<div class="col-md-2">
+			
+		</div>
+
+		
+    </div>
+	
+ 	<div class="row">
+		<div class="col-md-4">
+			<article>
+				<a target="_blank" href="Temperature.html">
+				<img src="/Users/Kish/Desktop/GW_Bootcamp_Repository/test/GWARL201902DATA3/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="80%">
+				</a>
+			</article>
+		</div>
+		<div class="col-md-4">
+			<p>
+			  <em>Approximately 500 cities of varying latitudes were chosen at random. The data was gathered through the Google OpenWeatherMap API 
+          and then analytics were applied to create visualizations to illustrate the certain relationships. Maximum/minimum Temperatures, Cloudiness,
+          Wind Speed, and Humidity were major areas of statistical interest. Using Matplotlib, different visualizations were generated
+          which attempted to reconcile any possible relationship between the various weather factors and latitude. Each visualization is also
+          paired with its own analysis of the data and lists observable trends. 			  	
+			  </em>
+			</p>
+		</div>
+		
+		<div class="col-md-2">
+        <h6> Latitude vs Max Temp </h6>
+			<a target="_blank" href="Temperature.html">
+			<img src="/Users/Kish/Desktop/GW_Bootcamp_Repository/test/GWARL201902DATA3/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp" width ="80%">
+			</a>
+		</div>
+		<div class="col-md-2">
+        <h6> Latitude vs Humidity </h6>
+			<a target="_blank" href="Humidity.html">
+			<img src="/Users/Kish/Desktop/GW_Bootcamp_Repository/test/GWARL201902DATA3/02-Homework/11-Web/Instructions/Resources/assets/images/Fig2.png" alt="Latitude vs Humidity" width ="80%">
+			</a>
+		</div>
+
+	 </div>
+	 
+ 	<div class="row">
+
+		<div class= "col-lg-8" "col-md-8">
+		</div>
+		<div class="col-lg-2" "col-md-2">
+        <h6> Latitude vs Wind Speed  </h6>
+			<a target="_blank" href="Windspeed.html">
+			<img src="/Users/Kish/Desktop/GW_Bootcamp_Repository/test/GWARL201902DATA3/02-Homework/11-Web/Instructions/Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed.." width ="80%">
+			</a>
+		</div>
+		
+		<div class="col-lg-2" "col-md-2">
+        <h6> Latitude vs Cloudiness </h6>
+			<a target="_blank" href="Cloudiness.html">
+			<img src="/Users/Kish/Desktop/GW_Bootcamp_Repository/test/GWARL201902DATA3/02-Homework/11-Web/Instructions/Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness" width ="80%">
+			</a>
+		</div>
+		<div class= "col-lg-2" "col-md-2">
+		</div>
+	
+	</div> 
+ </div>               
+  
+  
+ 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+</body>
+
+</html>
